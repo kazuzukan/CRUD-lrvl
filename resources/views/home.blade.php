@@ -2,12 +2,11 @@
 @extends('master')
 
 <!-- judul halaman -->
-@section('judul_hal', 'Risyad Home')
+@section('judul_hal', 'Library Home')
 
 {{-- isi konten --}}
 @section('konten')
 
-    <p> Welcome To my Site </p>
-    <p> Please enjoy </p>
+    <p class="homekonten"> Hayuu ah baca buku </p>
 
 @endsection

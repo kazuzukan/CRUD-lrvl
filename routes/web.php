@@ -16,6 +16,14 @@ Route::get('/', function () {
 });
 
 //Route our blog
-Route::get('/blog','BlogController@home');
-Route::get('/blog/about', 'BlogController@about');
-Route::get('/blog/contact', 'BlogController@contact');
+Route::get('/perpus','BlogController@home');
+Route::get('/perpus/add', 'BlogController@add');
+Route::get('/perpus/view', 'BlogController@view');
+Route::post('/perpus/store', 'BlogController@store');
+
+//edit
+Route::get('/perpus/edit/{id}', 'BlogController@edit');
+//update
+Route::post('/perpus/update', 'BlogController@update');
+//delete
+Route::get('/perpus/delete/{id}', 'BlogController@delete');

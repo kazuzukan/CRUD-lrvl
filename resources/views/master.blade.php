@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            Perpusatakaan Jatinangor 
+            Library Nangor
         </title>
         <link rel="stylesheet" type="text/css" href="/css/style.css">
         <script rel="stylesheet" type="text/css" src="/js/app.js"> </script>
@@ -13,12 +13,12 @@
 
     <body>
         <header>
-            <h1> Perpusatakaan Jatinangor </h1>
+            <h1> Nangor Library </h1>
             <p> Mari membaca buku sebelum kiamat datang</p>
             <nav>
-                <a href="/blog"> HOME </a> |
-                <a href="/blog/about"> ABOUT </a> |
-                <a href="/blog/contact"> CONTACT </a> |
+                <a href="/perpus"> Home </a> |
+                <a href="/perpus/add"> Add </a> |
+                <a href="/perpus/view"> View </a> |
             </nav>
         </header>
 
